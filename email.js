@@ -1,6 +1,6 @@
 // Initialize EmailJS
 (function () {
-    emailjs.init("yFm4zigUbhLn_Dzxw"); // Replace with your EmailJS Public Key
+    emailjs.init("lCa-PutPhYs6u4_wF"); // Replace with your EmailJS Public Key
 })();
 
 // Form validation and submission
@@ -53,7 +53,7 @@ document.getElementById("contactForm").addEventListener("submit", async (e) => {
 
     // Send email using EmailJS
     try {
-        const response = await emailjs.send("service_fekiikg", "template_wydw3qk", {
+        const response = await emailjs.send("service_6jt2osc", "template_saw652p", {
             name: name.value.trim(),
             phone: phone.value.trim(),
             email: email.value.trim(),
